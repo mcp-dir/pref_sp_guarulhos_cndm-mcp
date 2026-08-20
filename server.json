@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_sp_guarulhos_cndm-mcp",
+  "title": "Prefeitura SP Guarulhos: Certidão Negativa de Débitos Mobiliários",
+  "description": "Prefeitura SP Guarulhos: Clearance Certificate (Debts) Mobiliários, official-source lookup. Platform",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_sp_guarulhos_cndm-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_sp_guarulhos_cndm"
+    }
+  ]
+}
